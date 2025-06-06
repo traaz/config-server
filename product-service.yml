@@ -3,9 +3,7 @@ spring:
     name: product-service
   profiles:
     active: default
-  config:
-    import: optional:configserver:http://localhost:8888
-
+ 
   redis:
     host: localhost
     port: 6379
