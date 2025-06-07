@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: mail-service
+  profiles:
+    active: default
+ 
+  mail:
+    host: localhost
+    port : 1025
+    username: ""
+    password: ""
+    properties:
+      mail:
+        smtp:
+          auth: false
+          startttls:
+            enable : false
+
+server:
+  port: 8084
+
+
