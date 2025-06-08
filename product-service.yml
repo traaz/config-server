@@ -22,3 +22,6 @@ feign:
       default:
         connectTimeout: 5000
         readTimeout: 5000
+
+logging:
+  file : C:\Users\Admin\Desktop\logs\product-service.log

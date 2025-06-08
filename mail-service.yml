@@ -20,3 +20,5 @@ server:
   port: 8084
 
 
+logging:
+  file : C:\Users\Admin\Desktop\logs\mail-service.log
