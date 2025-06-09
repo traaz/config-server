@@ -24,4 +24,5 @@ feign:
         readTimeout: 5000
 
 logging:
-  file : C:\Users\Admin\Desktop\logs\customer-service.log
+  file : 
+    name: C:\Users\Admin\Desktop\logs\customer-service.log

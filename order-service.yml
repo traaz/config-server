@@ -28,6 +28,6 @@ feign:
       default:
         connectTimeout: 5000
         readTimeout: 5000
-
 logging:
-  file : C:\Users\Admin\Desktop\logs\order-service.log
+  file : 
+    name: C:\Users\Admin\Desktop\logs\order-service.log

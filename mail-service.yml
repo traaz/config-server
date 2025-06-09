@@ -21,4 +21,5 @@ server:
 
 
 logging:
-  file : C:\Users\Admin\Desktop\logs\mail-service.log
+  file : 
+    name: C:\Users\Admin\Desktop\logs\mail-service.log
