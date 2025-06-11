@@ -23,6 +23,11 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
 logging:
   file : 
     name: C:\Users\Admin\Desktop\logs\customer-service.log
