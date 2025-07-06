@@ -5,16 +5,16 @@ spring:
     active: default
  
   mail:
-    host: localhost
-    port : 1025
+    host: maildev     
+    port: 1025
     username: ""
     password: ""
     properties:
       mail:
         smtp:
           auth: false
-          startttls:
-            enable : false
+          starttls:
+            enable: false  
 
 server:
   port: 8084
@@ -25,5 +25,5 @@ eureka:
       defaultZone: http://eureka-service:8761/eureka
 
 logging:
-  file : 
-    name: C:\Users\Admin\Desktop\logs\mail-service.log
+  file:
+    name: /logs/mail-service.log   

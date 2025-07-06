@@ -5,11 +5,10 @@ spring:
     active: default
  
   redis:
-    host: localhost
-    port: 6379
+    host: redis-cache      
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://host.docker.internal:5432/postgres  
     username: postgres
     password: 123456789
 
@@ -22,12 +21,12 @@ feign:
       default:
         connectTimeout: 5000
         readTimeout: 5000
+
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-service:8761/eureka
+      defaultZone: http://eureka-service:8761/eureka  
 
 logging:
-  file : 
-    name: C:\Users\Admin\Desktop\logs\product-service.log
-  
+  file:
+    name: /logs/product-service.log   

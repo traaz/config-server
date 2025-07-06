@@ -1,15 +1,15 @@
 spring:
   application:
-    name : customer-service
-  profile:
-    active : default
+    name: customer-service
+  profiles:
+    active: default
 
   redis:
-    host: localhost
+    host: redis  
     port: 6379
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://host.docker.internal:5432/postgres  
     username: postgres
     password: 123456789
 
@@ -29,5 +29,5 @@ eureka:
       defaultZone: http://eureka-service:8761/eureka
 
 logging:
-  file : 
-    name: C:\Users\Admin\Desktop\logs\customer-service.log
+  file:
+    name: /logs/customer-service.log 
